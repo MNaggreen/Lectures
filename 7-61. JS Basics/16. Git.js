@@ -122,6 +122,24 @@ git push -u origin main
 …or push an existing repository from the command line
 git remote add origin https://github.com/MNaggreen/portfolio.git
 git branch -M main
-git push -u origin main */
+git push -u origin main
+
+
+ЕСЛЕ ЧТО ТО ПОШЛО НЕ ТАК
+то можно просто создать новый репозиторий без readme 
+и ввести эти команды
+
+git init подготовка к работе
+git config --global user.name "Nikolay" установка имени
+git config --global user.email "nickolas1594@mail.ru" установка почты
+git status проверка статуса фалов
+git add -A добавление все папок и файлв в репозиторий
+git commit -a -m"first commit" зоздание котрольной точки
+git remote add origin https://github.com/MNaggreen/test2.git ссылка после создания вручную репозитория 
+непосредственно на гит хабе
+добавление источника для загрузки
+git push -u origin master загрузка непосредственно 
+на источник указанный выше
+*/
 
 
