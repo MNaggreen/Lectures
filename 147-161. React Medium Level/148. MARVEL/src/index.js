@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app/App';
-/* import MarvelService from './services/MarvelService'; */
+import MarvelService from './services/MarvelService';
 /* импорт нашего компонента */
 import './style/style.scss';
 
 /* const marvelService = new MarvelService(); */
 /* создаем экземпляр класса тут будет храниться потом класса */
-/* 
-marvelService.getAllCharacters().then(res => console.log(res)); */
+ 
+/* marvelService.getAllCharacters().then(res => console.log(res)); */
 /* делаем запрос и когда он выполниться консоль выведет списко персонажей */
 /* сейчас консоль выведет лимит в 20 персонажей т.е. вернется объект в котором будет 20 персонажей
 лимит можно увеличить или уменьшить в костуроре на сайте где мы брали ссылку для запроса
